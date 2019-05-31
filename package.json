@@ -1,0 +1,46 @@
+{
+  "name": "@yovadiaz/custom-button",
+  "version": "1.0.0",
+  "description": "Custon component created with React and SASS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebigyovadiaz/custom-button.git"
+  },
+  "keywords": [
+    "Components",
+    "React",
+    "JavaScript",
+    "Sass"
+  ],
+  "author": {
+    "name": "Yovanny Diaz",
+    "email": "thebigyovadiaz@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebigyovadiaz/custom-button/issues"
+  },
+  "homepage": "https://github.com/thebigyovadiaz/custom-button#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/components": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "react": "^16.8.6",
+    "storybook-addon-jsx": "^7.1.2",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
